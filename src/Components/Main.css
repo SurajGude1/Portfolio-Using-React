@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    gap: 70px;
+
+}
+
+.main-container .content {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.myimg {
+    background-image: url(/src/images/myimg-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 30px #1F75FE;
+}
+
+
+
+.myinfo {
+    padding: 50px;
+    box-shadow: 10px 10px 30px #1F75FE;
+}
+
+.myinfo h3{
+    color: red;
+    text-transform: uppercase;
+}
+
+.myinfo h2{
+    margin-top: 10px;
+    color: #1F75FE;
+    text-transform: uppercase;
+}
+
+.mytags{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.mytags li{
+    font-size: 14px;
+    list-style: none;
+}
+
+.myinfo p{
+    font-size: 16px;
+    margin-top: 20px;
+    color: grey;
+    word-spacing: 3px;
+}
+
+.myinfo .myinfo-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.myinfo .myinfo-btn{
+    width: 200px;
+    height: 40px;
+    background-color: #1F75FE;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.myinfo .myinfo-btn:hover{
+    background-color: lightblue;
+    box-shadow: 5px 5px 25px #1F75FE;
+    color: #1F75FE;
+}
